@@ -1,0 +1,109 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box1 {
+  background: #2690d4;
+  padding: 4em 2em;
+}
+body {
+  margin: 0;
+}
+#showcase {
+  display: grid;
+  background: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  opacity: 0.9;
+}
+#showcase .content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content-wrap p {
+  font-size: 1.1em;
+  padding: 0 20rem;
+  text-align: center;
+}
+.content-wrap h1 {
+  font-size: 2rem;
+}
+.button {
+  display: inline;
+  padding: 1.5rem 2rem;
+  background: #333333;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+#section-a {
+  display: grid;
+  background: #eaeaea;
+  color: #333;
+  height: 225px;
+}
+#section-a .content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+#section-b ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2em 22em;
+  margin: 0;
+
+  list-style: none;
+  background: #333;
+  color: #333333;
+  height: 500px;
+}
+.card {
+  width: 250px;
+  height: 500px;
+  background: white;
+  padding: 0;
+}
+.card img {
+  width: 100%;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+#section-d {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+}
+#section-d .box {
+  background: #333;
+  padding: 4em 2em;
+}
+.box p {
+  margin: 0;
+  padding-top: 1em;
+  line-height: 1.2em;
+}
+.box1 p {
+  margin: 0;
+  padding-top: 1em;
+  line-height: 1.5em;
+}
+#main-footer {
+  display: grid;
+}
